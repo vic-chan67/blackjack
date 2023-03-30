@@ -1,0 +1,23 @@
+Rules of blackjack:
+Player chooses how much to bet
+    White = £1
+    Red = £5
+    Green = £25
+    Black = £100
+Dealer (computer) deals two cards to both the player's hand and their hand
+If the dealer or the player has blackjack (21), the game is over and the winnings given
+If neither the dealer or player has blackjack, the player chooses to hit (receive another card) or stand (doesn't want more cards)
+Once the player chooses to stand or if the score goes above 21, the players turn ends
+Player hand >21 (bust), dealer wins, end round
+Player hand =21, player wins, end round
+Player hand <21, dealer must draw
+Dealer continues to draw cards until the hand is >=17
+Dealer hand >21 (bust), player wins, end round
+Dealer hand =21, dealer wins, end round
+Dealer hand <21, comapre dealer and player hands, end round
+
+Winnings:
+Player wins from drawing cards
+    1:1 payout
+Player wins from a ten and an ace
+    1:4 payout

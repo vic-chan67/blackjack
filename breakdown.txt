@@ -1,0 +1,49 @@
+Using two .cpp files and one .hpp file, .cpp files: one main, one library
+
+Arrays:
+deck[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    Defines a deck of cards as an array
+pHand[]
+    Player's hand
+dHand[]
+    Dealer's hand
+
+Description of all functions:
+rules()
+    Displays the rules to the player
+    .cpp main
+gameRound()
+    Calls all necessary functions for one round
+    .cpp main
+getCard()
+    Produces random card from deck
+    .cpp library
+handScore()
+    Works out the total score of the hand
+    .cpp library
+checkBust()
+    Checks the hand if it's a bust (>21)
+    .cpp library
+compareHands()
+    Compares the dealer and players hands
+    .cpp library
+cardToHand()
+    Adds card to the hand
+    .cpp library
+showHand()
+    Prints out the cards
+    .cpp library
+aceValue()
+    Asks the user if they want to count Ace as 1 or 11
+    .cpp library
+specialsValue()
+    Returns the value of cards J Q and K as 10
+    .cpp library
+winner()
+    Compares scores and prints the winner
+    .cpp library
+nextRound()
+    Asks if the player wants to play another round or end the game
+    .cpp main
+
+Use while function to get card (hit) until user chooses to stand
