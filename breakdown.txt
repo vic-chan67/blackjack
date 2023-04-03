@@ -8,16 +8,29 @@ pHand[]
 dHand[]
     Dealer's hand
 
+Description of all functions (alphabetical order):
+chipCounter()
+    Change number of chips
+countChips()
+    Display total player money and the chips values
+getCard()
+    Gets random card from deck
+howToPlay()
+    Prints instructions
+payoutRule()
+    Prints payout rules and chip values
+welcomeMenu()
+    First menu when game ran
+
+-----------------------------------
+
 Description of all functions:
-rules()
-    Displays the rules to the player
-    .cpp main
+betChip()
+    Asks how much the player wishes to bet
+    .cpp library
 gameRound()
     Calls all necessary functions for one round
     .cpp main
-getCard()
-    Produces random card from deck
-    .cpp library
 handScore()
     Works out the total score of the hand
     .cpp library
@@ -36,14 +49,14 @@ showHand()
 aceValue()
     Asks the user if they want to count Ace as 1 or 11
     .cpp library
-specialsValue()
-    Returns the value of cards J Q and K as 10
-    .cpp library
 winner()
     Compares scores and prints the winner
     .cpp library
 nextRound()
     Asks if the player wants to play another round or end the game
     .cpp main
+endgameResults()
+    Outputs the final results
+    .cpp library
 
 Use while function to get card (hit) until user chooses to stand
