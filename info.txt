@@ -2,6 +2,7 @@ Rules of blackjack:
 Player chooses how much to bet
     White = £1
     Red = £5
+    Orange = £10
     Green = £25
     Black = £100
 Dealer (computer) deals two cards to both the player's hand and their hand

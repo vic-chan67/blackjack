@@ -4,9 +4,6 @@
 using namespace std;
 
 int main() {
-    int n;
     //welcomeMenu();
-    n = getCard();
-    cout << getCardChar(n);
-    cout << getCardVal(n);
+    gameRound();
 }

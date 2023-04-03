@@ -9,12 +9,24 @@ dHand[]
     Dealer's hand
 
 Description of all functions (alphabetical order):
+betChip()
+    Betting system
+cardToHand()
+    Add card to hand
 chipCounter()
     Change number of chips
+compareHands()
+    Determines the winner of the round
 countChips()
     Display total player money and the chips values
 getCard()
     Gets random card from deck
+getCardChar()
+    Return card as character
+getCardVal()
+    Return card value
+handScore()
+    Returns score for hand
 howToPlay()
     Prints instructions
 payoutRule()
@@ -25,29 +37,14 @@ welcomeMenu()
 -----------------------------------
 
 Description of all functions:
-betChip()
-    Asks how much the player wishes to bet
-    .cpp library
 gameRound()
     Calls all necessary functions for one round
     .cpp main
-handScore()
-    Works out the total score of the hand
-    .cpp library
 checkBust()
     Checks the hand if it's a bust (>21)
     .cpp library
-compareHands()
-    Compares the dealer and players hands
-    .cpp library
-cardToHand()
-    Adds card to the hand
-    .cpp library
 showHand()
     Prints out the cards
-    .cpp library
-aceValue()
-    Asks the user if they want to count Ace as 1 or 11
     .cpp library
 winner()
     Compares scores and prints the winner
